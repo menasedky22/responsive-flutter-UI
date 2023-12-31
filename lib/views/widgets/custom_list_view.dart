@@ -10,7 +10,7 @@ class CustomSliverListView extends StatelessWidget {
     return SliverList.builder(
       itemBuilder: (context, index) {
         return const Padding(
-          padding: EdgeInsets.only(top: 16),
+          padding: EdgeInsets.only(top: 15),
           child: CustomItems2(),
         );
       },
